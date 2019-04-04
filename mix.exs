@@ -19,6 +19,7 @@ defmodule IrohaElixir.Mixfile do
   def application do
     [
       mod: {IrohaElixir.Application, []},
+      applications: [:grpc],
       extra_applications: [:logger, :runtime_tools]
     ]
   end
