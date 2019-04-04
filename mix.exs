@@ -41,6 +41,7 @@ defmodule IrohaElixir.Mixfile do
       {:cowboy, "~> 2.1", override: true},
       {:plug_cowboy, "~> 2.0"},
       {:poison, "~> 4.0"},
+      {:grpc, github: "tony612/grpc-elixir"}
     ]
   end
 end
